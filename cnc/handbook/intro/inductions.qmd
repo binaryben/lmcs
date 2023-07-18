@@ -1,0 +1,80 @@
+# Induction process
+
+There are three main stages to becoming a CNC operator at LMCS. Read the sub chapters below for more information on each stage.
+
+::: {.callout-tip collapse="true"}
+
+## Do I need to complete this if I know how to CNC?
+
+Yes, even if you have worked with CNC machines in a professional capacity. There are two main reasons for this. The first is for insurance purposes (kind of a big deal). The second is so that you can get to know our way of working which might be slightly different to what you are used to.
+
+If you have prior experience though, please feel free to help those with less experience as they learn. Either way, you might learn something new or might be able to point out better ways of working.
+
+:::
+
+## Basic safety and theory
+
+Before you can turn on the machine, you need to know the basic theory of how it works. This is covered in the *Preface*, *Introduction* and *Machine* sections of this handbook. You will also need to complete the green and red inductions.
+
+Once you have studied the background theory sections of this handbook and done the prerequisite safety inductions, you can complete the theory test online.
+
+::: {.callout-note collapse="true"}
+
+## More about the online test
+
+The online theory test can be taken at any time and is not timed. You are also able to refer to this handbook as you take the test. This is because you are encouraged to keep using this guide whenever you are using the CNC and it is important to know where to find the right information.
+
+:::
+
+```{mermaid}
+flowchart TB
+  A((Join LMCS)) --> B(Green Induction)
+  B --> C(Red Induction)
+  C --> D(Complete Theory Test)
+  D --> E{{Practice moving the machine!}}
+```
+
+Once you have your green and red stickers and have completed the theory test, find a trained operator[^pink] to help you with the next step. Go through the steps you learned in the *Machine* section to turn on the machine, move the spindle head manually and to practice setting work origins.
+
+Ask the member helping you any questions you have if you are stuck. Do this as many times as needed until you feel comfortable with the process.
+
+[^pink]: CNC operators can be identified by a pink sticker on their name badge
+
+::: {.callout-important}
+
+**Do not turn the spindle on unless you have also completed the orange induction and are supervised!** If you have your orange sticker and are supervised, you can also experiment with doing *dry runs*[^dry] on the machine once the other prerequisites are met.
+
+:::
+
+[^dry]: A dry run involves loading code into the machine and turning on the spindle without a tool or material loaded. This allows you to check if the machine moves in the way you expect it to based on your design.
+
+## In-person induction
+
+```{mermaid}
+flowchart TB
+  A((Design Part)) --> B(In-person theory induction)
+  B --> C(Orange induction)
+  C --> D(In-person practical induction)
+  D --> E{{Supervised access to CNC}}
+```
+
+## Practical assessment
+
+```{mermaid}
+flowchart TB
+  A((In-person inductions)) --> B(Gain practical experience)
+  B --> C(Practical assessment)
+  C --> D{{Unsupervised access to CNC}}
+```
+
+## Become an inductor
+
+Have you enjoyed learning the CNC machine? Please pay forward the time and expertise given to you by other members and consider becoming an inductor yourself.
+
+::: {.callout-note appearance="simple" icon="false"}
+
+## Up next
+
+Congratulations! You've learned the background theory about CNC machines and are ready to start learning how to use the machine. Next we will get you equipped with what you need, including basic tools and software.
+
+:::

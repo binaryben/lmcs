@@ -1,0 +1,36 @@
+# Learning how to CNC
+
+## The right attitude
+
+## Basic tools
+
+Before your in-person practical induction, you will need:
+
+* Safety glasses
+* Hearing protection
+* USB Drive
+* 6mm up cut end mill
+* 20º engraving bit
+* Verniers
+* Small tape measure
+* Pencil
+* LED torch
+
+You may also need:
+
+* Double sided tape
+* Masking tape
+* Spray glue
+* Super glue
+
+You will almost certainly need more cutters.
+
+## Installing software
+
+It's time for the first practical part of the learning process!
+
+### Fusion 360
+
+### Vectric V-Carve
+
+### Camotics (optional)

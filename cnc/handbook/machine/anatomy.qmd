@@ -1,0 +1,11 @@
+---
+title: Anatomy of our CNC router
+---
+
+CNC Machines come in a variety of types and configurations.
+
+::: {.callout-tip}
+## Before you continue
+
+Make sure you have installed Fusion 360 and have downloaded the Digital Twin to your F360 Library before continuing with this section.
+:::

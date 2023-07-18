@@ -1,0 +1,72 @@
+# G-Code cheatsheet
+
+Knowing G-code commands will help you use the MDI to control the movement and operation of the CNC spindle. Understanding what each command does can also be helpful when debugging `.nc` files that have been created by your postprocessors.
+
+* [Machinist Guides: Complete G-Code List](https://www.machinistguides.com/g-codes/)
+
+## Common operations
+
+Here are some examples of using the most common g-codes to achieve simple operations:
+
+{{< gcode command="g1" >}} {{< gcode command="x100" >}} {{< gcode command="y100" >}} {{< gcode command="z20" >}} {{< gcode command="f5000" >}}
+
+## G-Codes
+
+Code | Result
+:-:|----------
+{{< gcode command="g1" >}} | Linear move at determined feedrate
+{{< gcode command="g2" >}} | CW arc move
+{{< gcode command="g3" >}} | CCW arc move
+{{< gcode command="g28" >}} | Home position return
+
+## M-Codes
+
+Code | Result
+:-:|---------
+{{< gcode command="m3" >}} | Spindle on (Clockwise)
+{{< gcode command="m5" >}} | Spindle stop
+{{< gcode command="m6" >}} | Tool change
+
+## Other commands / parameters
+
+Code | Result
+:-:|---------
+{{< gcode command="f#" >}} | Feedrate (m/min)
+{{< gcode command="s#" >}} | Spindle speed (RPM)
+{{< gcode command="i" >}} {{< gcode command="j" >}} {{< gcode command="k" >}} | Arc motion command position
+{{< gcode command="r" >}} | Radius of arc motion
+{{< gcode command="p" >}} | Parameter for various commands
+{{< gcode command="x" >}} {{< gcode command="y" >}} {{< gcode command="z" >}} | Linear motion command
+{{< gcode command="a" >}} {{< gcode command="b" >}} {{< gcode command="c" >}} | Rotary motion command
+{{< gcode command="t#" >}} | Select tool #
+{{< gcode command="n#" >}} | Line number
+{{< gcode command="(...)" >}} | Comments
+
+
+## Other common codes
+
+### G-Codes
+
+Full list of supported G-codes can be found here on the Masso website.
+
+Code | Result
+:-:|-----
+{{< gcode command="g0" >}} | Do not use (Rapid movement)
+{{< gcode command="g4" >}} | Dwell (pause)
+{{< gcode command="g17" >}} to {{< gcode command="g19" >}} | Plane selection (G17 is the default, do not change)
+{{< gcode command="g20" >}} | Do NOT put the machine in inches!
+{{< gcode command="g21" >}} | Coordinates in metric
+{{< gcode command="g40" >}} to {{< gcode command="g43" >}} | Tool compensation commands
+{{< gcode command="g53" >}} | Cancel work offsets
+{{< gcode command="g54" >}} to {{< gcode command="g59" >}} | Work offsets
+{{< gcode command="g90" >}} | Absolute positioning
+{{< gcode command="g91" >}} | Relative positioning (Do NOT use)
+
+### M-Codes
+
+Full list of supported M-codes can be found here on the Masso website.
+
+Code | Result
+:-:|---------
+{{< gcode command="m0" >}} | Program stop
+{{< gcode command="m1" >}} | Optional program stop

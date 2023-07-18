@@ -1,0 +1,65 @@
+project:
+  type: book
+  output-dir: dist
+
+book:
+  title: "CNC Handbook"
+  author: "Lake Monger Community Shed"
+  date: "20/03/2023"
+  page-navigation: true
+  chapters:
+    - index.qmd
+    - part: intro/index.qmd
+      chapters:
+        - intro/definition.qmd
+        - intro/digital-fabrication.qmd
+        - intro/use-cases.qmd
+        # - intro/inductions.qmd # TODO: Fix compile error
+        - intro/getting-started.qmd
+    - part: machine/index.qmd
+      chapters:
+        - machine/anatomy.qmd
+        - machine/kinematics.qmd
+        - machine/g-code.qmd
+        - machine/controller.qmd
+        - machine/work-holding.qmd
+        - machine/motion.qmd
+        - machine/dust.qmd
+    - part: cad/index.qmd
+      chapters:
+        - cad/materials.qmd
+        - cad/file-formats.qmd
+        - cad/parametric-tutorial.qmd
+        - cad/vector-tutorial.qmd
+        - cad/existing-designs.qmd
+        - cad/further-learning.qmd
+    - part: tools/index.qmd
+    - part: cam/index.qmd
+    - part: advanced/index.qmd
+      chapters:
+        - advanced/work-holding.qmd
+        - advanced/conversational.qmd
+        - advanced/other-materials.qmd
+        - advanced/inlays.qmd
+        - advanced/pcb.qmd
+    - part: reference/index.qmd
+      chapters:
+        - reference/quick-start.qmd
+        - reference/g-codes.qmd
+        - reference/feeds-calculator.qmd
+        - reference/tips.qmd
+        - reference/faq.qmd
+        - reference/glossary.qmd
+
+editor:
+  render-on-save: true
+
+toc: true
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreport
+  epub:
+    cover-image: cover.png

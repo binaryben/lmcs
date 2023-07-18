@@ -1,0 +1,16 @@
+# Parametric tutorial
+
+Two Up
+
+https://boardgamegeek.com/boardgame/28526/two
+
+https://thelatch.com.au/two-up-anzac-day-2021/
+
+* Design the kip in Fusion 360
+    * Feel free to add coins and render
+* Australian pennies are 30.8mm diameter
+* Kip is usually about 20cm long
+* 12mm thick stock
+* Add an ANZAC related or personalised engraving
+
+{{< video https://www.youtube.com/watch?v=p0eBy7Z5VH8 >}}

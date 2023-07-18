@@ -1,0 +1,65 @@
+# Preface {.unnumbered}
+
+G'day and welcome to the *CNC Training Handbook* for members of the [Lake Monger Community Shed](https://www.lakemongershed.org.au/).
+
+::: {.callout-tip}
+## Not a member of LMCS?
+
+This book may still be helpful if you are wanting to learn the fundamentals of how to use a CNC router. Keep in mind as you go through the content that a lot of the information may be specific to the machine and workflows we use at our workshop.
+:::
+
+## Overview
+
+This interactive book is designed to get you up to speed as fast as practical with how to start safely operating the CNC Router in a basic manner. There are some portions that will cover more advanced usage of the machine. Those sections are primarily for members who want to go further. These sections will be noted as you follow along. It is important to understand that this is not a comprehensive training course on everything CNC. That said, it is pretty close and will give you a very solid foundation to build from.
+
+The CNC router is arguably one of the more complex tools we have at the shed and it will take some time to learn how to use it properly. Like many skills and hobbies the shed has to offer, it is expected that you'll spend some time doing additional self-directed learning as you start to find the gaps in your skills and knowledge. You will likely need to learn things that are specific to how you intend to use the machine.
+
+We hope this will not discourage you from having a go! We are confident any member who has the desire to learn will be able to. Just take your time and remember it should be about the journey as much as the destination.
+
+## What to expect
+
+This book contains a number of resources that focus on different ways of learning. You can choose to make use of any combination of options that will help you learn best.
+
+::: {.callout-tip}
+## On the fence about CNC?
+
+We recommend reading through the Introduction section to get a better idea of what the machine is capable of and what will be required to learn it. By the end of that section you should have a good idea of what to expect and whether it is the right tool for you.
+:::
+
+### Written content
+
+All of the required information is available in written form like this. You can see the structure of the book by clicking the menu at the top or left depending on your screen layout. Use the menu to jump to any section at any time. The book is broken into seven main sections:
+
+1. **[Introduction](/intro/index.qmd)** — provides context and prelearning that will help you make the most of further sections
+2. **[Machine](/machine/index.qmd)** — learn how our machine moves and how to set it up ready for your first cuts
+3. **[Design](/cad/index.qmd)** — use popular software packages to design your first project to cut as part of your induction process
+4. **[Tooling](/tools/index.qmd)** — get to know the types of tool bits that the CNC router can cut material with and how to pick the best options
+5. **[Programming](/cam/index.qmd)** — use your 3D model from the design section and new found knowledge to make your first cutting program
+6. **[Advanced](/advanced/index.qmd)** — starting point for members who want to do more advanced operations with the machine
+7. **[References](/reference/index.qmd)** — a collection of quick guides, reference materials and online tools to assist operating the machine
+
+You can skip the *Advanced* and *Reference* sections until you need them. The most useful reference material for now may be the [Glossary](/reference/glossary.qmd).
+
+### Video content
+
+As well as providing the bulk of the content in written form, there is also a complimentary short video series that is embedded throughout. You will find the video episodes inserted at key positions of the book to cover the material near it — just like the introduction video at the top of this page! You can think of places where you see these videos as checkpoints along the way.
+
+
+
+### Interactive content
+
+### Practical learning
+
+You will be required to complete practical exercises throughout the book as part of the induction process. By the time you have completed the exercises in the book, you will have the tools and have created the <abbr title="Numerical Control">NC</abbr> files needed to cut a commemorative[^twoup] kip used to play [Two-up](https://en.wikipedia.org/wiki/Two-up).
+
+[^twoup]: Two-up is illegal to play, except on Anzac Day in certain locations, as it constitutes unregulated gambling.
+
+You will cut two copies of your design during your in-person induction — one for you to keep and one for the shed. From there you will be encouraged to help other members with small one-off jobs they want done on the machine. You will also be supervised as you complete one or two jobs of your own creation before being formally signed off.
+
+More detailed information about this can be found in the [Induction process](/intro/inductions.qmd) chapter.
+
+## Getting help
+
+Any member with a pink dot on their badge is considered inducted and may be able to provide advice. Grab them during coffee breaks to talk about any help you need.
+
+In addition, there is a WhatsApp group for CNC operators and those interested in learning the machine. You should be able to get access easily by looking for signs in the shed or by asking another member.

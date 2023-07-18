@@ -1,0 +1,15 @@
+# Settings things in motion
+
+## Ways of moving the spindle
+
+There are three ways to control the movement and functions of the spindle:
+
+1. Via a G-code program
+2. Via the jogging interfaces
+    i. Touch screen
+    ii. Pendant
+3. Via the MDI
+
+## Manual Data Input
+
+## G-Code review

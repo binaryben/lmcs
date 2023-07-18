@@ -1,0 +1,43 @@
+# Feeds calculator
+
+
+Common machining formulas
+Speeds and feeds formulas – Make sure you don’t mix inches and mm! Always stay in the same units
+
+Feed rate (inches per minute) = RPM x feed per tooth x number of teeth/flutes in cutter
+Surface feet per minute = RPM x diameter of cutter / 3.82
+RPM = surface feet per minute x 3.82 / diameter of cutter
+Inches per Tooth = inches per minute / RPM / number of teeth/flutes in cutter
+
+
+Conversion formulas
+
+Inches = mm / 25.4
+MM = inches x 25.4
+Diameter = radius x 2
+Radius = diameter / 2
+
+***
+
+From Richard
+
+Tooth loading 0.01 to 0.08
+
+TL x TN  x RPM / 1000 = Feed in metres/minute
+
+12-15000rpm
+1mm deep
+
+
+CD x pi x RPM / 1000 = surface speed in meters
+
+Surface speed should be:
+200 for plastic/acrylic/aluminium
+250 soft wood
+350 hard wood
+
+If it’s vibrating - feed rate too low
+Screaming - feed rate too high
+
+Plastic (1000mm/min, 9000rpm)
+Aluminium (500mm/min 9000rpm)

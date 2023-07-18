@@ -1,0 +1,81 @@
+# What is CNC?
+
+Let's start with the most basic question.
+
+> What does CNC actually stand for?
+>
+> -- <cite>Probably you right now</cite>
+
+## Basic definition
+
+CNC means *Computer Numerical Control*. It refers to the automated process of controlling a variety of different machining tools. Usually this is in the form of moving and manipulating the tool across 2.5 axis using digital instructions.
+
+Perhaps unsurprisingly given the definition, the instructions are given to the machine by a computer. Instructions were historically not always given by computer though — but we will get back to that!
+
+At the Lake Monger Community Shed, we are specifically referring to the automated control of our router based CNC machine when we refer to "the CNC". However, a CNC workflow can be applied to a number of machines.
+
+Here are some common examples of other machines that can be controlled via a CNC controller if they have the right interfaces and supporting structures (eg. a motion capable table):
+
+* Mills
+* Lathes
+* Laser cutters
+* Plasma cutters
+* Hot wire foam cutters
+* Grinders
+* Drills
+* Benders
+* 3D printers
+* Plotters
+
+### Naming CNC machines
+
+Sometimes it is helpful to differentiate which CNC machine you are referring to if there are several CNC capable machines around. How you refer to each machine depends on the traditional tool that the CNC machine is based on. For example, you might refer to one machine as a CNC Router and another a CNC Mill. Some places end up using friendly nicknames such as "[Big Red](https://wiki.artifactory.org.au/en/tools/lasers/bigred)" and "[Little Red](https://wiki.artifactory.org.au/en/tools/lasers/littlered)" when they start aquiring multiple machines of the same type.
+
+> Maybe one day we will have the "problem" of naming duplicate machines, but for now, you know what machine "the CNC" is at least referring to at LMCS.
+
+Tools that don't have a traditional counterpart usually drop the term CNC when referring to them (eg. you would not call a *3D printer* a *CNC printer* or a *laser cutter* a *CNC laser*) but they are still CNC machines at their core.
+
+In fact, these modern machines (3D printers and laser cutters) use the same *language*[^gcode] to give the digital instructions that control movement as CNC machines based on traditional tools. It can be easier for some to understand what this all means by looking at the evolution of what has become CNC.
+
+[^gcode]: This language is called Geometric Code (or just G-Code) and will be expanded on in a later chapter
+
+## History of CNC
+
+Before CNC was a thing, NC was a thing. This is what happened in workshops before computers (as we know them today) were introduced into the machining and manufacturing process.
+
+Before NC was a thing, machine operators used DROs. And before that, everything was done manually with physical gauges.
+
+Let us have a look at that forwards now and hopefully it will make more sense. Don't worry if you are currently lost, it will make more sense as you push forward.
+
+::: {.callout-tip}
+
+## Finding more information
+
+[This article on Wikipedia](https://en.wikipedia.org/wiki/Numerical_control) and the linked articles inside it provide a lot more information on the history of CNC machines and what they are.
+
+It may be an overwhelming amount of information if you are getting started for the first time though. It is a good starting point for further learning for those who are interested to learn more.
+
+:::
+
+### Manual operation
+
+
+
+(eg. using hand wheels on mills or pushing routers around using jigs and templates).
+
+### Adding DROs
+
+### Adding NC
+
+, a similar process that existed before computers (as we know them today) were introduced. This refers to machining tools that were controlled by technologies such as punch cards to perform repeatable operations.
+
+### Adding computers
+
+::: {.callout-note appearance="simple" icon="false"}
+
+## Up next
+
+You've learned how we came to have machines controlled by computers. Next we will learn more about why we want to do that.
+
+:::
+

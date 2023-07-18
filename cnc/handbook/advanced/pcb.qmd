@@ -1,0 +1,82 @@
+# PCB milling
+
+I'd need to cut profiles, traces, through holes and vias.
+
+I'd need to cut mounting holes for M2.5 (raspberry pi and arduino)
+
+I'd need to cut to a spec that meets the requirements of popular PCB fab houses
+
+2.54mm and 2.00mm spacing of through holes
+
+Cheap PCB specs (based on PCBWay):
+
+10x10cm
+1.0 to 1.6mm PCB thickness
+Min hole size: 0.3mm
+
+## Process
+
+1. Prepare FR4 board
+   1. Cut alignment profile
+   2. Clean
+2. Generate CAM files
+   1. Drill holes (Gcode)
+   2. Profile cutting (Gcode)
+   3. Photoresist
+   4. Silkscreen
+3. Drill holes
+   1. Mount into jig
+   2. Run drill file
+4. Connect vias
+   1. Thread copper
+   2. Solder connections
+   3. Flush cut
+   4. Clean
+5. [Create etch resist layer](https://www.youtube.com/watch?v=VN0X4jVp4XI)[^milling]
+   1.
+6. Etch
+   1. Expose
+   2. Develop
+   3. ☠️ Acid
+   4. Clean
+7. Cut profile
+   1. Mount into jig
+   2. Run profile file
+8. Apply soldermask
+   1. ?
+   2. Develop
+   3. Clean
+9. Add through hole rivets
+
+[^milling]: Milling with the same marking bit may be better for dirty, quick prototypes with larger tolerances
+
+## Materials
+
+* CNC Router
+* UV Exposure Box (could be with LCD screen?)
+* PCB Jig — to align PCBs for dual sided milling/exposing and to keep it as flat as possible
+* V carving bit
+* [PCB Drills](https://www.aliexpress.com/item/1005001841852284.html)
+  * 0.5mm for vias
+  * Through holes
+* [4x12mm Corn End Mill](https://www.aliexpress.com/item/4001340415853.html) (profiles)
+* Carving bit (traces)
+* Copper wire (vias)
+* PCB Rivets (through holes)
+* 1.6mm copper clad FR4
+
+## Software
+
+* [FlatCAM](http://flatcam.org/)
+* [PCB2Gcode](https://github.com/pcb2gcode/pcb2gcode)
+
+Alternative ideas
+
+* [PCB Copper Plating](https://www.youtube.com/watch?v=Kn92cLf69iw)
+* [DIY PCB Via that can be automated](https://hackaday.com/2015/11/23/easier-pcb-vias-using-conductive-drill-bit/)
+* <https://hackaday.com/2022/02/09/a-guide-to-milling-pcbs-at-home/>
+* <https://www.youtube.com/watch?v=SkHHzz342ow>
+
+<https://www.aliexpress.com/item/1005004728124052.html>
+
+<https://www.aliexpress.com/item/1005003635851930.html>

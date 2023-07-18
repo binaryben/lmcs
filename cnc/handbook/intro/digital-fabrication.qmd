@@ -1,0 +1,37 @@
+# Digital fabrication
+
+CNC machines are an essential tool in a process known as [digital manufacturing](https://en.wikipedia.org/wiki/Digital_manufacturing). This is an approach to manufacturing that is centered around automated computerised systems, often with virtual manufacturing plants being created before physical production of parts begins.
+
+You probably do not think of yourself as a manufacturer. Maybe you identify more as a woodworker, metalworker, hobbyist, maker or even just someone who likes to tinker.
+
+## Additive vs subtractive
+
+::: {.callout-note}
+
+## Skipping ahead
+
+You can skip ahead to *Workflow* if you only plan to use the machine to engrave or cut basic 2D profiles. Come back to it anytime you want to do more or if you are just interested.
+
+:::
+
+**Digital fabrication tools are subdivided into two types of manufacturing processes: additive and subtractive manufacturing.**
+
+If you have seen a 3D printer[^fdm] in operation before, you will recall how the printer starts with nothing on the bed and starts to slowly add material to build the physical part based on the 3D design. This is an example of additive manufacturing.
+
+[^fdm]: Specifically a fused deposition modeling (FDM) printer. This is the most common type for consumer based 3D printers and uses plastic fillament to build the model.
+
+In contrast, our CNC router is a subtractive manufacturing tool. This means that you start with material that is larger than the final part you want to create and then remove (subtract) material from it. In some ways, you can compare the process to a sculpter starting with their block of material and chiseling out their artwork.
+
+It is important to understand the difference between these types of machines because it will impact the way you approach creating your designs.
+
+A CNC machine needs to be able to reach every section of the part that you want to remove material from, just like the sculpter needs to be able to access every part of their artwork with their hand tools. Unlike the sculpter who has a lot of flexibility in the way they can move though, our CNC machine only has three degrees of freedom (DOF).
+
+## Workflow
+
+::: {.callout-note appearance="simple" icon="false"}
+
+## Up next
+
+You've learned about the basic workflow of using digital fabrication tools. Next we will learn what you can make with the CNC router at LMCS.
+
+:::

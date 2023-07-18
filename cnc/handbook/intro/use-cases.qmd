@@ -1,0 +1,27 @@
+# Making the most of CNC
+
+> Everything looks like a nail if all you have is a hammer
+
+It's important to recognise that although the CNC router is a very versatile machine and can be used for a lot of operations, it may not always be the best tool for the job.
+
+It is common for an operator to be able to make use of an entire session (half day) the shed is open once factoring in setup, pack down and machining time. This means with our current opening times, seven operators using the machine once per week will max out our capacity.
+
+## Suitable projects
+
+There are four main types of work that are best suited for the CNC router.
+
+* Engravings
+* One-off projects
+  * Complex 2D geometries
+  * 2.5D carving
+  * Precision work
+* Batched operations
+* Just for fun!
+
+### Engravings
+
+One of the most common uses of a CNC router in workspaces like ours is for personalising projects with custom carvings.
+
+### Just for fun!
+
+Please do not let any of this dissuade you from learning how to use the machine. It is a very challenging and rewarding skill set to develop.

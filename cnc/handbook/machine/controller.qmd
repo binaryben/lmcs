@@ -1,0 +1,9 @@
+# How to start our CNC router
+
+## What is the controller (Masso)?
+
+## What is the VFD?
+
+## Startup sequence
+
+## Basics of tool loading
